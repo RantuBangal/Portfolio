@@ -33,30 +33,30 @@ $(document).ready(function () {
       $(".menu-btn i").toggleClass("active");
     });
   
-    // typing text animation script
-    var typed = new Typed(".typing", {
-      strings: [
-        "B.Sc. Graduate",
-        "Full Stack Developer",
-        "Lifelong Learner",
-        "Web Designer"
-      ],
-      typeSpeed: 100,
-      backSpeed: 60,
-      loop: true
-    });
+    // // typing text animation script
+    // var typed = new Typed(".typing", {
+    //   strings: [
+    //     "B.Sc. Graduate",
+    //     "Full Stack Developer",
+    //     "Lifelong Learner",
+    //     "Web Designer"
+    //   ],
+    //   typeSpeed: 100,
+    //   backSpeed: 60,
+    //   loop: true
+    // });
   
-    var typed = new Typed(".typing-2", {
-      strings: [
-        "B.Sc. Graduate",
-        "Full Stack Developer",
-        "Lifelong Learner",
-        "Web Designer"
-      ],
-      typeSpeed: 100,
-      backSpeed: 60,
-      loop: true
-    });
+    // var typed = new Typed(".typing-2", {
+    //   strings: [
+    //     "B.Sc. Graduate",
+    //     "Full Stack Developer",
+    //     "Lifelong Learner",
+    //     "Web Designer"
+    //   ],
+    //   typeSpeed: 100,
+    //   backSpeed: 60,
+    //   loop: true
+    // });
   
     // owl carousel script
     $(".carousel").owlCarousel({
@@ -80,4 +80,5 @@ $(document).ready(function () {
       }
     });
   });
+  
   
